@@ -187,7 +187,7 @@ if __name__ == "__main__":
     parser.add_argument('--output', type=str, default='pred.csv')
     parser.add_argument('--model_dir', type=str, required=True)
     parser.add_argument('--model_name', type=str, required=True)
-    parser.add_argument('--batch_size', type=int, default=269)                                                          
+    parser.add_argument('--batch_size', type=int, default=64)                                                          
     args = parser.parse_args()
     
     try:
